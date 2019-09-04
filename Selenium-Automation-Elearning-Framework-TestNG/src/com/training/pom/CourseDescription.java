@@ -82,6 +82,8 @@ public class CourseDescription {
 		}
 	}
 	
+	
+	
 	//2. Click on Course description icon
 	public void clickCourseDescLink() {
 			this.courseDescLink.click();
