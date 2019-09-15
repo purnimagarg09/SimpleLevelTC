@@ -45,8 +45,8 @@ public class LoginTests {
 	}
 	@Test(priority=1)
 	public void validLoginTest() {
-		loginPOM.sendUserName("purnima");
-		loginPOM.sendPassword("welcome2ibm");
+		loginPOM.sendUserName("admin");
+		loginPOM.sendPassword("admin@123");
 		loginPOM.clickLoginBtn(); 
 		//screenShot.captureScreenShot("First");
 	}
